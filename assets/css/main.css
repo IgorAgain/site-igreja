@@ -2994,6 +2994,43 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+.img-igreja {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+:root {
+  --gold: #C4A15E;
+  --white: #FFFFFF;
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-strong: rgba(0, 0, 0, 0.15);
+}
+
+    /* Caixa que envolve o link */
+.whatsapp-box {
+  display: inline-block;
+  background-color: var(--gold);
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px var(--shadow-light);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 20px;
+}
+.whatsapp-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px var(--shadow-strong);
+}
+
+    /* Link interno */
+.btn-whatsapp {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+}
+.btn-whatsapp:hover {
+  color: var(--white);
 }
